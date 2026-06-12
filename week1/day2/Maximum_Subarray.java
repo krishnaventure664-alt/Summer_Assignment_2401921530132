@@ -1,5 +1,6 @@
 package week1.day2;
-public class Maximum_Subarray {
+
+class Solution {
     public int maxSubArray(int[] nums) {
         int n = nums.length;
         int sum = 0;
